@@ -1,0 +1,95 @@
+.video-box{
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+.video-box .title{
+    color: #fff;
+    position: absolute;
+    top: 320px;
+    left: 300px;
+}
+.colour{
+    width: 90px;
+    height: 12px;
+    background: #ff7062;
+    border-radius: 6px;
+    display: block;
+}
+.video-box .title h3{
+    font-size: 66px;
+}
+.video-box .title h4{
+    font-size: 28px;
+}
+.colour-btn{
+    background-color: #ff7062;
+    width: 273px;
+    height: 66px;
+    display: inline-block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 40px;
+    font-size: 28px;
+}
+.about{
+    margin-top: -8px;
+    width: 100%;
+    height: 1012px;
+    overflow: hidden;
+    background: url('../images/aboutbanner.jpg') no-repeat center top;
+}
+.about{
+    color: #fff;
+}
+.about .colour {
+    margin: 0 auto;
+}
+.about h3{
+    font-size: 55px;
+    margin-top: 300px;
+}
+.about p{
+    font-size: 28px;
+    line-height: 1.8;
+}
+.wecan{
+    text-align: center;
+}
+.wecan .colour {
+    margin: 0 auto;
+}
+.wecan h3{
+    font-size: 55px;
+    margin-top: 100px;
+}
+.wecan .colour-btn{
+    color: #fff;
+}
+.do-list{
+    margin: 100px auto;
+}
+.do-list ul{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.do-list ul li{
+    /* float: left; */
+    width: 20%;
+    text-align: center;
+}
+.do-list ul li div{
+    text-align: center;
+}
+.do-list ul li div span{
+    display: block;
+    font-size: 20px;
+}
+.do-list ul li div p{
+    font-size: 10px;
+}
+.do-list ul li:hover{
+    color: #ff7062;
+}

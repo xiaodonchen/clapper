@@ -23,10 +23,59 @@ button {border: none;}
 
 .fl { float:left; }
 .fr { float:right; }
-
+.tac{ text-align: center;}
+.mb30{ margin-bottom: 30px;}
+.mt20{ margin-top: 20px;}
+.mt30{ margin-top: 30px;}
+.mt40{ margin-top: 40px;}
 /*通用*/
 .comWidth {
     width: 1200px;
     height: auto;
     margin:0 auto;
+}
+
+/* 首页 */
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #000;
+    height: 80px;
+    line-height: 80px;
+    color:#fff;
+    opacity:0.8; 
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.nav .logo{
+    /* margin-left: 200px; */
+}
+.nav .logo img{
+ padding-top: 25px;   
+}
+
+.nav .nav-right{
+    /* margin-right: 200px; */
+}
+.nav .nav-right img{
+    padding-top: 24px;
+    margin-left: 20px;
+}
+.nav ul{
+    /* margin-left: 200px; */
+    width: 600px;
+}
+.nav ul li {
+    float: left;
+    margin-right: 50px;   
+}
+.nav ul li a{
+    color: #fff;
+}
+.nav ul li a:hover{
+    color: #ff7062;
 }
