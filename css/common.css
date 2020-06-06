@@ -1,0 +1,32 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,form,input,textarea,th,td,p { margin:0;padding:0; }
+html,body { font-family: "微软雅黑", PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif; width: 100%; }
+body, input, textarea { font-family: "微软雅黑"; }
+body { margin:0; }
+table { border-collapse:collapse; }
+img { border:none; vertical-align:top; max-width: 100%; height: auto; }
+li{ list-style:none; }
+i, em{ font-style:normal; }
+a{ text-decoration:none; }
+p{margin:0;padding:0;}
+textarea{ resize:none; overflow:auto;}
+input,textarea,select,label,button{ outline:none; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #b8c4ce;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #b8c4ce;}
+input:-moz-placeholder, textarea::-moz-placeholder {color: #b8c4ce;}
+input:-ms-input-placeholder, textarea::-ms-input-placeholder {color: #b8c4ce;}
+button {border: none;}
+/*清浮动*/
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom:1;}
+.ovh { overflow: hidden; }
+
+.fl { float:left; }
+.fr { float:right; }
+
+/*通用*/
+.comWidth {
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+}
