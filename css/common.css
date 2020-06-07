@@ -20,14 +20,25 @@ button {border: none;}
 .clearfix:after { clear: both; }
 .clearfix { *zoom:1;}
 .ovh { overflow: hidden; }
-
+.hide{ display: none;}
 .fl { float:left; }
 .fr { float:right; }
 .tac{ text-align: center;}
 .mb30{ margin-bottom: 30px;}
+.mt10{ margin-top: 10px;}
 .mt20{ margin-top: 20px;}
 .mt30{ margin-top: 30px;}
 .mt40{ margin-top: 40px;}
+.mt50{ margin-top: 50px;}
+.ml30{
+    margin-left: 30px;
+}
+.ml100{
+    margin-left: 100px;
+}
+.ml200{
+    margin-left:200px;
+}
 /*通用*/
 .comWidth {
     width: 1200px;
@@ -78,4 +89,49 @@ button {border: none;}
 }
 .nav ul li a:hover{
     color: #ff7062;
+}
+.footer-box{
+    padding: 0 100px;
+}
+.footer{
+    padding: 70px 230px 100px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+.footer-box a{
+    color: #fff;
+}
+.footer .title{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.footer .title:hover{
+    color: #ff7062;
+}
+.footer ul li{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer ul li a:hover{
+    color: #ff7062;
+}
+.footer .find-p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer .find-p:hover{
+    color: #ff7062;
+}
+.footer .find-input{
+    width: 247px;
+    height: 68px;
+    border: none;
+}
+.footer .find-btn{
+    width: 80px;
+    height: 68px;
+    color: #fff;
+    background-color: #5c5c5c;
+    text-align: center;
+    line-height: 68px;
 }
