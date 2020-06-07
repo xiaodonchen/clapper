@@ -1,0 +1,226 @@
+body {
+    background: #f7f7f7;
+}
+.findTitle {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.findTitle h3 {
+    font-size: 48px;
+    color: #000;
+}
+.littleTit h3 {
+    font-size: 36px;
+}
+.findTitle span {
+    width: 90px;
+    height: 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 30px auto 0;
+    background: #ff7062;
+}
+.newpublish {
+    width: 1480px;
+    height: auto;
+    margin: 100px auto 0;
+}
+.newpublish .list {
+    width: 100%;
+    height: auto;
+    margin: 70px auto 0;
+}
+.newpublish .list .item {
+    width: 462px;
+    height: auto;
+    float: left;
+    background: #fff;
+    padding-bottom: 40px;
+    transition: all .2s linear;
+    margin-right: 47px; 
+}
+.newpublish .list .item:last-child {
+    margin-right: 0;
+}
+.newpublish .list .item:hover {
+    box-shadow: 0 0 20px #dbdbdb;
+    transform:translate3d(0,-2px,0);
+}
+.newpublish .list .item .imgBox {
+    width: 428px;
+    height: 358px;
+    margin: 15px auto 0;
+    position: relative;
+}
+.newpublish .list .item .imgBox .img {
+    width: 100%;
+    height: auto;
+}
+.newpublish .list .item .imgBox .icon {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.newpublish .list .item .word {
+    width: 428px;
+    height: auto;
+    margin: 20px auto 0;
+}
+.newpublish .list .item .word h3 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.newpublish .list .item .word p {
+    width: 100%;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.newpublish .list .item .word .date {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    line-height: 30px;
+}
+.newpublish .list .item .word .date .time {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.newpublish .list .item .word .date i {
+    font-size: 18px;
+    color: #666;
+}
+.newpublish .list .item .word .date .xx {
+    width: 28px;
+    height: 27px;
+}
+.popImgList {
+    width: 100%;
+    height: auto;
+    margin: 150px auto 0;
+}
+.popImgList .list {
+    width: 1718px;
+    height: auto;
+    margin: 0 auto ;
+    overflow: hidden;
+}
+.popImgList .list .bigCont {
+    width: 120%;
+    float: left;
+    height: auto;
+}
+.popImgList .list .item {
+    width: 402px;
+    height: auto;
+    float: left;
+    margin: 66px 36px 0 0;
+}
+.popImgList .list .item img {
+    width: 402px;
+    height: 278px;
+    float: left;
+}
+
+@media only screen and ( max-width: 1780px ) {
+    .popImgList .list {
+        width: 1278px;
+    }
+}
+
+@media only screen and ( max-width: 1520px ) {
+    .newpublish {
+        width: 100%;
+    }
+    .newpublish .list {
+        width: 462px;
+        height: auto;
+    }
+    .newpublish .list .item {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 30px;
+    }
+    .popImgList .list {
+        width: 840px;
+    }
+}
+
+@media only screen and ( max-width: 1200px ) {
+    .newpublish {
+        margin-top: 80px;
+    }
+    .findTitle h3 {
+        font-size: 36px;
+    }
+    .findTitle span {
+        width: 70px;
+        height: 8px;
+        margin-top: 20px;
+    }
+    .newpublish .list {
+        width: 90%;
+    }
+    .newpublish .list .item {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .newpublish .list .item .imgBox {
+        width: 100%;
+        height: auto;
+    }
+    .newpublish .list .item .word {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newpublish .list .item .word h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .newpublish .list .item .word p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .newpublish .list .item .word .date .time {
+        margin-top: 5px;
+    }
+    .popImgList {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .littleTit h3 {
+        font-size: 28px;
+    }
+    .popImgList .list {
+        width: 94%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .popImgList .list .bigCont {
+        width: 100%;
+    }
+    .popImgList .list .item {
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+    .popImgList .list .item img {
+        width: 100%;
+        height: auto;
+    }
+    .popImgList .list .item:nth-child(2),
+    .popImgList .list .item:nth-child(4),
+    .popImgList .list .item:nth-child(6),
+    .popImgList .list .item:nth-child(8) {
+        margin-right: 0;
+    }
+}
+
