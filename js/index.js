@@ -2,8 +2,8 @@
 $(function(){
     
 	$('.j-sle').click(function(){
-        console.log(2);
-		$('.right-sel').toggle();
+        $('.right-sel').toggle();
+        $('.right-sel').is(":hidden") ? $('body').css('overflow','auto') : $('body').css('overflow','hidden');
 	})
 	 
 	

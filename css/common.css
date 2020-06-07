@@ -90,27 +90,35 @@ button {border: none;}
 .nav-m .right{
     width: 45px;
     text-align: right;
-    position: relative;
+    /* position: relative; */
 }
 .nav-m .right .right-sel{
-    position: absolute;
-    background-color: #fff;
-    color: #000;
-    width: 150px;
-    right: -30px;
+    position: fixed;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    right: 0;
+    bottom: 0;
 	display: none;
+}
+.nav-m .right .right-sel ul {
+    margin-top: 20px;
 }
 .nav-m .right .right-sel ul li{
     height: 40px;
     line-height: 40px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
+}
+.nav-m .right .right-sel ul li a{
+    color: #fff;
 }
 .nav-m .right .right-sel ul li a:hover{
 	color: #FF7062;
 }
-.nav-m .right .right-sel ul li a{
-    color: #000;
-}
+
 .nav-m .right img{
     width: 35px;
     vertical-align: middle;
