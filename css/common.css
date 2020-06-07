@@ -21,6 +21,7 @@ button {border: none;}
 .clearfix { *zoom:1;}
 .ovh { overflow: hidden; }
 .hide{ display: none;}
+.cur{ cursor: pointer;}
 .fl { float:left; }
 .fr { float:right; }
 .tac{ text-align: center;}
@@ -62,6 +63,55 @@ button {border: none;}
     justify-content:space-around;
     align-items:center;
     z-index: 999;
+}
+.nav-m{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    line-height: 80px;
+    color:#fff;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    z-index: 999;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+.nav-m .left{
+    display: inline-block;
+    width: 45px;
+}
+.nav-m .cneter img{
+    width: 130px;
+    vertical-align: middle;
+   
+}
+.nav-m .right{
+    width: 45px;
+    text-align: right;
+    position: relative;
+}
+.nav-m .right .right-sel{
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    width: 120px;
+    right: -20px;
+}
+.nav-m .right .right-sel ul li{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.nav-m .right .right-sel ul li a{
+    color: #000;
+}
+.nav-m .right img{
+    width: 35px;
+    vertical-align: middle;
 }
 .nav .logo{
     /* margin-left: 200px; */
@@ -138,6 +188,9 @@ button {border: none;}
 }
 
 @media only screen and ( max-width: 1000px ) {
+    .nav{
+        display: none;
+    }
     .footer-box{
         padding: 0;
     }
@@ -164,6 +217,11 @@ button {border: none;}
         margin-top: 40px;
     }
     .mobile-gauge{
-        margin: 0 20px;
+        margin: 0 4px;
+    }
+}
+@media only screen and ( min-width: 1000px ) {
+    .nav-m{
+        display: none;
     }
 }

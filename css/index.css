@@ -1,7 +1,7 @@
 .banner {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 80px auto;
 }
 .banner img {
     width: 100%;
@@ -185,11 +185,12 @@
 }
 .video-box2 .colour-btn{
     color: #fff;
+    margin-left: 25px;
 }
 .video-box2 .title{
     color: #000;
     margin-left: 20px;
-    margin-top: 200px;
+    margin-top: 60px;
 }
 .video-box2 .title h3{
     font-size: 36px;
@@ -212,13 +213,13 @@
         padding: 0;
     }
     .team{
-        padding: 300px 0 100px;
+        padding: 240px 0 100px;
     }
     .team .team-list .contents{
         width:45%;
     }
     .team .team-list{
-        margin-top: 150px;
+        margin-top: 50px;
     }
     .contents-no{
         width:45%;
@@ -242,6 +243,7 @@
     }
     .wecan h3{
         font-size: 40px;
+        padding-top: 0;
     }
     .wecan .do-list{
         margin-top: 50px;
