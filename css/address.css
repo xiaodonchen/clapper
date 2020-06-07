@@ -1,9 +1,14 @@
 .add-box{
 	padding: 200px 120px;
-	
+	background-color: #F7F7F7;
 }
 .map{
-	width: 50%;
+	width: 45%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+}
+#container{
+	width: 100%;
+	height: 500px;
 }
 .studio{
 	width: 50%;
@@ -23,6 +28,14 @@
     border-radius: 6px;
     display: block;
 }
+.colour-s{
+    width: 30px;
+    height: 4px;
+    background: #ff7062;
+    border-radius: 6px;
+    display: block;
+	margin: 0 auto;
+}
 .colour-btn{
     background-color: #ff7062;
     width: 273px;
@@ -36,4 +49,111 @@
 }
 .bg-5c{
 	background-color: #5C5C5C;
+}
+.contact{
+	padding: 0 120px 140px;
+	background-color: #F7F7F7;
+}
+.contact-tit{
+	width: 45%;
+}
+.contact-tit .top{
+	font-size: 48px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.contact-tit p{
+	font-size: 36px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.contact-tit .botton{
+	font-size: 36px;
+	margin-top: 230px;
+}
+.contact-box{
+	width: 50%;
+	border: 5px solid #a7a7a7;
+	height: 500px;
+	background-color: #FFFFFF;
+	padding: 100px 70px;
+}
+.contact-box-list{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.contact-box-list img{
+	display: block;
+	margin: 0 auto;
+}
+.contact-box-list .tit{
+	font-size: 26px;
+	margin-top: 40px;
+	display: block;
+	margin-bottom: 80px;
+	
+}
+.contact-box-list .word{
+	margin-top: 60px;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.contact-box-list .name{
+	font-size: 26px;
+}
+@media only screen and ( max-width: 1000px ) {
+	.map{
+		width: 100%;
+	}
+	.add-box{
+		padding: 100px 10px;
+	}
+	.studio{
+		margin-top: 80px;
+		width: 100%;
+	}
+	.studio .tit{
+		font-size: 30px;
+	}
+	.studio .ads{
+		font-size: 26px;
+		margin: 30px 0;
+	}
+	.colour-btn{
+		width: 160px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+		margin-right: 10px;
+	}
+	.contact{
+		padding: 0 10px;
+	}
+	.contact-tit{
+		width: 100%;
+	}
+	.contact-tit .top{
+		font-size: 26px;
+		margin-bottom:20px;
+	}
+	.contact-tit p{
+		font-size: 26px;
+		margin-bottom:20px;
+	}
+	.contact-tit .botton{
+		display: none;
+	}
+	.contact-box{
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		padding:50px 10px;
+	}
+	.contact-box-list .word{
+		font-size: 14px;
+	}
+	.contact-box-list .name{
+		font-size: 14px;
+	}
 }

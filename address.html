@@ -4,25 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css"/>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/address.css">
+	
     <title>地址</title>
 </head>
 <body>
-
+	<!-- 导航 -->
+	<div class="nav clearfix nav-w">
+	    <div class="logo "><img src="./images/logo_2.png" alt=""></div>
+	    <div class="fl">
+	        <ul class="clearfix">
+	            <li class="active"><a href="/">首页</a></li>
+	            <li><a href="./previousevents.html">活动</a></li>
+	            <li><a href="./find.html">发现</a></li>
+	            <li><a href="./address.html">地址</a></li>
+	            <li><a href="./message.html">留言</a></li>
+	            <li><a href="./mycenter.html">个人中心</a></li>
+	        </ul>
+	    </div>
+	    <div class="nav-right ">
+	        <img src="./images/phone_black.png" alt="">
+	        <img src="./images/QQ_black.png" alt="">
+	        <img src="./images/wx_black.png" alt="">
+	    </div>
+	</div>
+	<!-- 小的导航 -->
+	<div class="nav-m">
+	    <div class="left"></div>
+	    <div class="cneter"><img src="./images/m-logo.png" alt=""></div>
+	    <div class="right j-sle">
+	        <img src="./images/m-menu.png" alt="">
+	        <div class="right-sel">
+	            <ul>
+	                <li class="active"><a href="/">首页</a></li>
+	                <li><a href="./previousevents.html">活动</a></li>
+	                <li><a href="./find.html">发现</a></li>
+	                <li><a href="./address.html">地址</a></li>
+	                <li><a href="./message.html">留言</a></li>
+	                <li><a href="./mycenter.html">个人中心</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
 	<!-- map -->
-	<div class="add-box">
-		<div class="map fl">1</div>
+	<div class="add-box clearfix">
+		<div class="map fl">
+			<div id="container"></div>
+		</div>
 		<div class="studio fr">
 			<div class="tit">爱拍客影像工作室</div>
 			<span class="colour"></span>
-			<div class="ads">甘肃省兰州市城关区万盛大厦 <br>
-			X单元XXX室</div>
+			<div class="ads">甘肃省兰州市城关区万盛大厦 <br>			X单元XXX室</div>
 			<div>
 				<div class="colour-btn mr40">立即联系</div>
 				<div class="colour-btn bg-5c">到这里去</div>
 			</div>
 		</div>
 	</div>
+	<div class="contact clearfix">
+		<div class="contact-tit fl">
+			<div class="top">
+				CONTACT  INFORMATION
+			</div>
+			<p>联系方式</p>
+			<span class="colour"></span>
+			<div class="botton">
+				联系我 给你更多精彩
+			</div>
+		</div>
+		<div class="contact-box fl">
+			<div class="contact-box-list">
+				<img src="./images/adds-wx.png" >
+				<span class="tit">微信</span>
+				<span class="colour-s"></span>
+				<p class="word">zhuning7062</p>
+				<p class="name">朱经理</p>
+			</div>
+			<div class="contact-box-list">
+				<img src="./images/adds-phone.png" >
+				<span class="tit">电话</span>
+				<span class="colour-s"></span>
+				<p class="word">0931-660-99x</p>
+				<p class="name">朱经理</p>
+			</div>
+			<div class="contact-box-list">
+				<img src="./images/adds-em.png" >
+				<span class="tit">邮箱</span>
+				<span class="colour-s"></span>
+				<p class="word">qixuan@XX.com</p>
+				<p class="name">朱经理</p>
+			</div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	 <div class="footer-box">
+	    <div class="footer clearfix">
+	        <div class="slogans fl">
+	            <img src="./images/logo.png" alt="">
+	            <div class="slogans-c mt50">
+	                <p>爱拍客影像工作室</p>
+	                <p class="mt10">每一帧都是热爱</p>
+	            </div>
+	        </div>
+	        <div class="aboutus fl ml100">
+	            <div class="title">关于</div>
+	            <ul>
+	                <li><a href="##">关于我们</a></li>
+	                <li><a href="##">使用帮助</a></li>
+	                <li><a href="##">加入我们</a></li>
+	                <li><a href="##">用户协议</a></li>
+	            </ul>
+	        </div>
+	        <div class="activity fl ml100">
+	            <div class="title">活动</div>
+	            <ul>
+	                <li><a href="##">爱拍客电影节</a></li>
+	                <li><a href="##">爱拍创作</a></li>
+	                <li><a href="##">更多活动</a></li>
+	            </ul>
+	        </div>
+	        <div class="find fr">
+	            <div class="title">快速查找</div>
+	            <p class="find-p">加入我们开启你的爱拍之旅吧！</p>
+	            <div class="clearfix">
+	                <input class="find-input fl" type="text"> <span class="find-btn fl">搜索</span>
+	            </div>
+	            <div class="mt30">
+	                <img src="./images/phone.png" alt="">
+	                <img class="ml30" src="./images/QQ.png" alt="">
+	                <img class="ml30" src="./images/wx.png" alt="">
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<script src="./js/jquery-1.11.3.js"></script>
+	<script src="./js/index.js"></script>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=cb9eea4546b5c603a88829f1a7d11dac"></script>
+	<script type="text/javascript">
+		var infoWindow;
+		var map = new AMap.Map("container", {
+			resizeEnable: true,
+			center: [103.820929,36.054733],
+			zoom: 18
+		});
+		marker = new AMap.Marker({
+			icon: "//a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-default.png",
+			position: [103.820929,36.054733],
+			offset: new AMap.Pixel(-10, -80)
+		});
+		marker.setMap(map);
+	</script>
 </body>
 </html>
