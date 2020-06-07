@@ -1,3 +1,4 @@
+var video = document.getElementById('pc-video');
 $(function(){
     $(".do-list ul li").mouseenter(function(){
         $(this).find('.do-img').addClass('hide')
@@ -7,5 +8,13 @@ $(function(){
         $(this).find('.do-img').removeClass('hide')
         $(this).find('.do-img-h').addClass('hide')
     });
-
+	$('.j-sle').click(function(){
+		$('.right-sel').toggle();
+	})
+	 
+	if($('.pc-video').css("display") == "none"){
+		video.pause();
+	}else{
+		 video.play();
+	}
 });
