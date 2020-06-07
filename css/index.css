@@ -67,13 +67,13 @@
 }
 .wecan-box{
     padding: 0 100px;
-    height: 800px;
+    height: 868px;
     margin-top: -2px;
     z-index: 0;
     position: relative;
+    background: #fff;
 }
 .wecan-box-s{
-    background-color: black;
     opacity: 0.76;
     position: absolute;
     left: 0;
@@ -128,11 +128,11 @@
     color: #ff7062;
 }
 .team-box{
-    padding:0  100px ;
+    padding:0 100px ;
+    background-color: #1c1c1c;
 }
 .team{
     padding: 170px 100px 100px;
-    background-color: #1c1c1c;
 }
 .team .title{
     font-size: 40px;
