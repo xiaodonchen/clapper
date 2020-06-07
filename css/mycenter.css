@@ -1,0 +1,119 @@
+body {
+    background: #f7f7f7;
+}
+.mycenter {
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+    padding-top: 700px;
+    overflow: hidden;
+    background: #fff url("../images/centerBanner.jpg") no-repeat center top;
+}
+.mycenter .info {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.mycenter .info .tx {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    margin: 0 auto 40px;
+}
+.mycenter .info h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+.mycenter .info .btnlist {
+    width: 210px;
+    height: auto;
+    margin: 58px auto 0;
+}
+.mycenter .info .btnlist a {
+    color: #111;
+    font-size: 18px;
+}
+.mycenter .info .btnlist a:hover {
+    color: #ff7062;
+}
+.mycenter .info a.tips {
+    position: absolute;
+    top: 130px;
+    color: #ff7062;
+    font-size: 18px;
+    right: 5%;
+}
+.contentNo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 390px 0 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.contentNo p {
+    font-size: 36px;
+    color: #666;
+}
+.contentNo a {
+    width: 296px;
+    height: 72px;
+    line-height: 72px;
+    color: #fff;
+    font-size: 30px;
+    background: #ff7062;
+    display: block;
+    border-radius: 36px;
+    margin: 100px auto 0;
+}
+.contentNo a:hover {
+    background: #fe7b6f;
+}
+
+@media only screen and ( max-width: 1200px ) {
+    .mycenter {
+        background-size: 100% auto;
+        margin-top: 80px;
+        padding-top: 120px;
+        height: 230px;
+    }
+    .mycenter .info .tx {
+        width: 100px;
+        height: 100px;
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    .mycenter .info a.tips {
+        font-size: 14px;
+        top: 70px;
+    }
+    .mycenter .info h3 {
+        font-size: 18px;
+    }
+    .mycenter .info .btnlist {
+        margin-top: 30px;
+    }
+    .mycenter .info .btnlist a {
+        font-size: 18px;
+    }
+    .contentNo {
+        padding: 70px 0;
+    }
+    .contentNo p {
+        font-size: 20px;
+    }
+    .contentNo a {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+

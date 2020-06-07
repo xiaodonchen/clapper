@@ -86,7 +86,6 @@ button {border: none;}
 .nav-m .cneter img{
     width: 130px;
     vertical-align: middle;
-   
 }
 .nav-m .right{
     width: 45px;
@@ -153,10 +152,10 @@ button {border: none;}
 }
 .footer-box{
     padding: 0 100px;
+    background-color: #1c1c1c;
 }
 .footer{
     padding: 70px 180px 100px;
-    background-color: #1c1c1c;
     color: #fff;
 }
 .footer-box a{
