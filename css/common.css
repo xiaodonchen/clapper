@@ -112,10 +112,11 @@ button {border: none;}
     text-align: left;
     padding-left: 20px;
 }
+
 .nav-m .right .right-sel ul li a{
     color: #fff;
 }
-.nav-m .right .right-sel ul li a:hover{
+.nav-m .right .right-sel ul li a:hover, .nav-m .right .right-sel ul li.active a{
 	color: #FF7062;
 }
 
@@ -135,6 +136,13 @@ button {border: none;}
 
 .nav .nav-right{
     /* margin-right: 200px; */
+}
+.nav .nav-right p {
+    font-size-adjust: 16px;
+    cursor: pointer;
+}
+.nav .nav-right p:hover {
+    color: #ff7062;
 }
 .nav .nav-right img{
     padding-top: 24px;
@@ -156,6 +164,10 @@ button {border: none;}
     color: #111;
 }
 .nav ul li a:hover{
+    color: #ff7062;
+}
+.nav ul li.active a{
+    font-size: 20px;
     color: #ff7062;
 }
 .footer-box{
