@@ -61,6 +61,7 @@ button {border: none;}
     display: flex;
     justify-content:space-around;
     align-items:center;
+    z-index: 999;
 }
 .nav .logo{
     /* margin-left: 200px; */
@@ -94,7 +95,7 @@ button {border: none;}
     padding: 0 100px;
 }
 .footer{
-    padding: 70px 230px 100px;
+    padding: 70px 180px 100px;
     background-color: #1c1c1c;
     color: #fff;
 }
@@ -134,4 +135,32 @@ button {border: none;}
     background-color: #5c5c5c;
     text-align: center;
     line-height: 68px;
+}
+
+@media only screen and ( max-width: 1000px ) {
+    .footer-box{
+        padding: 0;
+    }
+    .footer .slogans{
+        float: none;
+        margin-top: 40px;
+    }
+    .footer{
+        padding: 70px 20px 100px;
+    }
+    .footer .aboutus{
+        margin-left: 0;
+        margin-top: 40px;
+        float: none;
+    }
+    .footer .activity{
+        float: none;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .footer .find{
+        float: none;
+        margin-left: 0;
+        margin-top: 40px;
+    }
 }
