@@ -227,5 +227,24 @@
 
     <script src="./js/jquery-1.11.3.js"></script>
     <script src="./js/index.js"></script>
+    <script>
+        var video = document.getElementById('pc-video');
+        $(function() {
+            $(".do-list ul li").mouseenter(function(){
+                $(this).find('.do-img').addClass('hide')
+                $(this).find('.do-img-h').removeClass('hide')
+                // $('.imgShow .bigImg').attr('src', $(this).find('img').attr('src'));
+            }).mouseleave( function(){
+                $(this).find('.do-img').removeClass('hide')
+                $(this).find('.do-img-h').addClass('hide')
+            });
+        })
+
+        if($('.pc-video').css("display") == "none"){
+            video.pause();
+        }else{
+            video.play();
+        }
+    </script>
 </body>
 </html>

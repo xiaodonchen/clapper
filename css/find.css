@@ -24,7 +24,7 @@ body {
 .newpublish {
     width: 1480px;
     height: auto;
-    margin: 100px auto 0;
+    margin: 150px auto 0;
 }
 .newpublish .list {
     width: 100%;
@@ -155,7 +155,7 @@ body {
 
 @media only screen and ( max-width: 1200px ) {
     .newpublish {
-        margin-top: 80px;
+        margin-top: 130px;
     }
     .findTitle h3 {
         font-size: 36px;
