@@ -1,3 +1,13 @@
+.banner {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 .video-box{
     width: 100%;
     position: relative;
@@ -171,16 +181,15 @@
     height: 0;
 }
 .video-box2{
-    height: 500px;
+    height: 360px;
 }
 .video-box2 .colour-btn{
     color: #fff;
 }
 .video-box2 .title{
     color: #000;
-    position: absolute;
-    top: 150px;
-    left: 20px;
+    margin-left: 20px;
+    margin-top: 200px;
 }
 .video-box2 .title h3{
     font-size: 36px;
@@ -194,13 +203,16 @@
     .video-box2{
         display: none;
     }
+    .banner{
+        display: none;
+    }
 }
 @media only screen and ( max-width: 1000px ) {
     .team-box{
         padding: 0;
     }
     .team{
-        padding: 170px 0 100px;
+        padding: 300px 0 100px;
     }
     .team .team-list .contents{
         width:45%;

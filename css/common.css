@@ -163,4 +163,7 @@ button {border: none;}
         margin-left: 0;
         margin-top: 40px;
     }
+    .mobile-gauge{
+        margin: 0 20px;
+    }
 }
