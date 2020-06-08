@@ -24,9 +24,20 @@
             </ul>
         </div>
         <div class="nav-right ">
-            <img src="./images/phone_black.png" alt="">
-            <img src="./images/QQ_black.png" alt="">
-            <img src="./images/wx_black.png" alt="">
+            <div>
+                <span class="j-img-h">
+                    <img class="no-h" src="./images/QQ.png" alt="">
+                    <img class="h hide" src="./images/QQ-h.png" alt="">
+                </span>
+                <span class="j-img-h">
+                    <img class="no-h" src="./images/phone.png" alt="">
+                    <img class="h hide" src="./images/phone-h.png" alt="">
+                </span>
+                <span class="j-img-h">
+                    <img class="no-h" src="./images/wx.png" alt="">
+                    <img class="h hide" src="./images/wx-h.png" alt="">
+                </span>
+            </div>
         </div>
     </div>
     <!-- 小的导航 -->
@@ -53,9 +64,9 @@
         <div class="findTitle"><h3>最新发布</h3><span></span></div>
         <div class="list clearfix">
             <div class="item">
-                <div class="imgBox">
+                <div class="imgBox j-imgBox">
                     <img class="img" src="./images/new_img_01.jpg" alt="">
-                    <img class="icon" src="./images/icon_ax.png" alt="">
+                    <img class="icon j-icon gray" src="./images/icon_ax.png" alt="">
                 </div>
                 <div class="word">
                     <h3>香港旅拍文艺短片</h3>
@@ -63,14 +74,14 @@
                     <div class="date">
                         <img class="fl time" src="./images/icon_time.png" alt="">
                         <i class="fl">05-25 13:57</i>
-                        <img class="fr xx" src="./images/icon_xx.png" alt="">
+                        <img class="fr xx j-icon-xx gray" src="./images/icon_xx.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
-                <div class="imgBox">
+                <div class="imgBox j-imgBox">
                     <img class="img" src="./images/new_img_02.jpg" alt="">
-                    <img class="icon" src="./images/icon_ax.png" alt="">
+                    <img class="icon j-icon gray" src="./images/icon_ax.png" alt="">
                 </div>
                 <div class="word">
                     <h3>Ginesta - Wallapop 2</h3>
@@ -78,14 +89,14 @@
                     <div class="date">
                         <img class="fl time" src="./images/icon_time.png" alt="">
                         <i class="fl">01-09 15:31</i>
-                        <img class="fr xx" src="./images/icon_xx.png" alt="">
+                        <img class="fr xx j-icon-xx gray" src="./images/icon_xx.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
-                <div class="imgBox">
+                <div class="imgBox j-imgBox">
                     <img class="img" src="./images/new_img_03.jpg" alt="">
-                    <img class="icon" src="./images/icon_ax.png" alt="">
+                    <img class="icon j-icon gray" src="./images/icon_ax.png" alt="">
                 </div>
                 <div class="word">
                     <h3>极简干货贴</h3>
@@ -93,7 +104,7 @@
                     <div class="date">
                         <img class="fl time" src="./images/icon_time.png" alt="">
                         <i class="fl">2018-10-29 00:09</i>
-                        <img class="fr xx" src="./images/icon_xx.png" alt="">
+                        <img class="fr xx j-icon-xx gray" src="./images/icon_xx.png" alt="">
                     </div>
                 </div>
             </div>
@@ -185,17 +196,49 @@
                     <input class="find-input fl" type="text"> <span class="find-btn fl">搜索</span>
                 </div>
                 <div class="mt30">
-                    <img  src="./images/phone.png" alt="">
-                    <img class="ml30" src="./images/QQ.png" alt="">
-                    <img class="ml30" src="./images/wx.png" alt="">
+                    <div>
+                        <span class="j-img-h">
+                            <img class="no-h" src="./images/QQ.png" alt="">
+                            <img class="h hide" src="./images/QQ-h.png" alt="">
+                        </span>
+                        <span class="j-img-h">
+                            <img class="no-h" src="./images/phone.png" alt="">
+                            <img class="h hide" src="./images/phone-h.png" alt="">
+                        </span>
+                        <span class="j-img-h">
+                            <img class="no-h" src="./images/wx.png" alt="">
+                            <img class="h hide" src="./images/wx-h.png" alt="">
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="showVideo">
+        <div class="Show">
+            <span class="close"><img src="./images/close.png" alt=""></span>
+             <video class="video" src="./video/banner-video.mp4" controls="controls" width="100%">
+                您的浏览器不支持 video 标签。
+            </video>
+        </div>
+    </div>
+    <div class="showBigVideoBg"></div>
     <script src="./js/jquery-1.11.3.js"></script>
     <script src="./js/index.js"></script>
-
+    <script>
+        $('.j-icon-xx').click(function(){
+            $(this).toggleClass("gray")
+        })
+        $('.j-icon').click(function(){
+            $(this).toggleClass("gray")
+        })
+        $('.j-imgBox').click(function(){
+            $('.showVideo, .showBigVideoBg').show();
+        })
+        $('.Show .close ,.showBigVideoBg').click(function() {
+            $('.showVideo, .showBigVideoBg').hide();
+        })
+    </script>
 </body>
 </html>
 

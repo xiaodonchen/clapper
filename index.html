@@ -22,10 +22,21 @@
                 <li><a href="./mycenter.html">个人中心</a></li>
             </ul>
         </div>
-        <div class="nav-right ">
-            <img src="./images/phone.png" alt="">
-            <img src="./images/QQ.png" alt="">
-            <img src="./images/wx.png" alt="">
+        <div class="nav-right">
+            <div>
+                <span class="j-img-h">
+                    <img class="no-h" src="./images/QQ.png" alt="">
+                    <img class="h hide" src="./images/QQ-h.png" alt="">
+                </span>
+                <span class="j-img-h">
+                    <img class="no-h" src="./images/phone.png" alt="">
+                    <img class="h hide" src="./images/phone-h.png" alt="">
+                </span>
+                <span class="j-img-h">
+                    <img class="no-h" src="./images/wx.png" alt="">
+                    <img class="h hide" src="./images/wx-h.png" alt="">
+                </span>
+            </div>
         </div>
     </div>
     <!-- 小的导航 -->
@@ -48,11 +59,11 @@
     </div>
 
     <div class="mobile-gauge">
-        <div class="banner">
+        <!-- <div class="banner">
             <img src="./images/index_banner.jpg" alt="">
-        </div>
+        </div> -->
         <!-- video -->
-        <div class="video-box2">
+        <!-- <div class="video-box2">
             <div class="title">
                 <span class="colour"></span>
                 <h3 class="mt20">每一帧都是热爱</h3>
@@ -60,7 +71,7 @@
                 <h4>已有  20，763，06  加入我们</h4>
                 <span class="colour-btn mt40 cur">加入我们</span>
             </div>
-        </div>
+        </div> -->
     
         <div class="video-box">
             <video class="pc-video" id="pc-video" muted src="./video/banner-video.mp4" loop autoplay  width="100%">
@@ -215,9 +226,20 @@
                     <input class="find-input fl" type="text"> <span class="find-btn fl">搜索</span>
                 </div>
                 <div class="mt30">
-                    <img  src="./images/phone.png" alt="">
-                    <img class="ml30" src="./images/QQ.png" alt="">
-                    <img class="ml30" src="./images/wx.png" alt="">
+                    <div>
+                        <span class="j-img-h">
+                            <img class="no-h" src="./images/QQ.png" alt="">
+                            <img class="h hide" src="./images/QQ-h.png" alt="">
+                        </span>
+                        <span class="j-img-h">
+                            <img class="no-h" src="./images/phone.png" alt="">
+                            <img class="h hide" src="./images/phone-h.png" alt="">
+                        </span>
+                        <span class="j-img-h">
+                            <img class="no-h" src="./images/wx.png" alt="">
+                            <img class="h hide" src="./images/wx-h.png" alt="">
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -231,7 +253,6 @@
             $(".do-list ul li").mouseenter(function(){
                 $(this).find('.do-img').addClass('hide')
                 $(this).find('.do-img-h').removeClass('hide')
-                // $('.imgShow .bigImg').attr('src', $(this).find('img').attr('src'));
             }).mouseleave( function(){
                 $(this).find('.do-img').removeClass('hide')
                 $(this).find('.do-img-h').addClass('hide')

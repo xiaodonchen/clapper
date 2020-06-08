@@ -112,6 +112,9 @@ body {
     margin: 0 auto ;
     overflow: hidden;
 }
+.popImgList .list img:hover{
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
 .popImgList .list .bigCont {
     width: 120%;
     float: left;
@@ -128,7 +131,65 @@ body {
     height: 278px;
     float: left;
 }
+.gray{ 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
+}
 
+.showVideo {
+    width: 800px;
+    background: #fff;
+    position: fixed;
+    z-index: 100000;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -244px;
+    padding: 20px;
+    display: none;
+}
+.showBigVideoBg {
+    background: #000;
+    opacity: .6;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.showVideo img {
+    width: 476px;
+    height: 648px;
+}
+.showVideo .Show {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.showVideo .close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -70px;
+    top: -20px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.showVideo .close img {
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+}
 @media only screen and ( max-width: 1780px ) {
     .popImgList .list {
         width: 1278px;
@@ -221,6 +282,18 @@ body {
     .popImgList .list .item:nth-child(6),
     .popImgList .list .item:nth-child(8) {
         margin-right: 0;
+    }
+    .showVideo{
+        width: 90%;
+        background: #fff;
+        position: fixed;
+        z-index: 100000;
+        left: 0;
+        top: 55%;
+        right: 0;
+    }
+    .showVideo .close{
+        display: none;
     }
 }
 
