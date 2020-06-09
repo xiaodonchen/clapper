@@ -180,34 +180,6 @@
     width: 0;
     height: 0;
 }
-.video-box2{
-    height: 360px;
-}
-.video-box2 .colour-btn{
-    color: #fff;
-    margin-left: 25px;
-}
-.video-box2 .title{
-    color: #000;
-    margin-left: 20px;
-    margin-top: 60px;
-}
-.video-box2 .title h3{
-    font-size: 36px;
-    font-weight: normal;
-}
-.video-box2 .title h4{
-    font-size: 18px;
-    font-weight: normal;
-}
-@media only screen and ( min-width: 1000px ) {
-    /* .video-box2{
-        display: none;
-    }
-    .banner{
-        display: none;
-    } */
-}
 @media only screen and ( max-width: 1000px ) {
     .team-box{
         padding: 0;
@@ -237,11 +209,15 @@
     }
     .video-box{
         margin-top: 80px;
-        height: 240px;
+        height: 460px;
     }
     .video-box .title{
-        top: 20px;
-        left: 0;
+        color: #000;
+        position: static; 
+        top: none;
+        left: none;
+        padding-left: 20px;
+        padding-top: 30px;
     }
     .colour{
         width: 65px;
@@ -263,6 +239,7 @@
         border-radius: 40px;
         font-size: 20px;
         margin-top: 20px;
+        color: #fff;
     }
     .wecan h3{
         font-size: 40px;
